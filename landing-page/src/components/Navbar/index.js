@@ -5,14 +5,18 @@ import "./styles.css";
 const NavBar = () => {
   return (
     <Box>
-      <AppBar position="sticky">
-        <Toolbar>
-            <Typography variant="h6" color="inherit" style={{ flexGrow: 1 }}>
-                Logo
-            </Typography>
-            <Button color="inherit">Services</Button>
-            <Button color="inherit">About</Button>
-            <Button color="inherit">Team</Button>
+      <AppBar position="fixed">
+        <Toolbar className="navbar">
+            <Box ml={10} flexGrow={1}>
+              <Typography variant="h6" color="inherit">
+                  Logo
+              </Typography>
+            </Box>
+            <Box mr={10}>
+              <Button color="inherit" size="large" id="button">Services</Button>
+              <Button color="inherit" size="large" id="button">About</Button>
+              <Button color="inherit" size="large" id="button">Team</Button>
+            </Box>
         </Toolbar>
       </AppBar>
     </Box>

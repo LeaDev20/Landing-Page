@@ -1,8 +1,7 @@
 .home {
     background-image: url("../../images/fondo-negro.jpg");
     background-size: cover;
-    background-position: center;
-    opacity:;
+    background-position: center;    
 }
 
 #home-fondo {
