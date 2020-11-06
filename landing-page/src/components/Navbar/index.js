@@ -9,14 +9,14 @@ const NavBar = () => {
       <AppBar position="fixed">
         <Toolbar className="navbar">
             <Box ml={10}>
-              <img src={logo} id="img-logo"/>
+              <img src={logo} id="img-logo" alt=""/>
             </Box>
             <Box flexGrow={1}>
-              <Typography variant="h6" color="inherit">
+              <Typography variant="h6" color="inherit" align="left">
                 ONFIRE
               </Typography> 
             </Box>
-            <Box mr={10}>
+            <Box>
               <Button color="inherit" size="large" id="button">Services</Button>
               <Button color="inherit" size="large" id="button">About</Button>
               <Button color="inherit" size="large" id="button">Team</Button>

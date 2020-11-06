@@ -1,5 +1,7 @@
 import React from 'react';
 import { Box, Button, Grid, Paper, Typography } from '@material-ui/core';
+import premio from '../../images/premio.png';
+import services from '../../images/services.png';
 import './styles.css';
 
 const Services = () => {
@@ -8,39 +10,54 @@ const Services = () => {
             <Box p={5}>
                 <Typography variant="h1" align="center">Services</Typography>
             </Box>
-            <Box className="">
-                <Grid container spacing={24}>
+            <Box p={10}>
+                <Grid container spacing={24}>    
                     <Grid item xs={8} sm={4}>
-                        <Box p={5} m={5} height={300}>
-                            <Box>
-                                <Typography variant="h3" align="center">Title</Typography>
-                                <Typography color="textSecondary" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</Typography>
-                            </Box>
-                            <Box display="flex" flexDirection="column" alignItems="center">
-                                <Button size="small" fullWidth>Learn More</Button>
-                            </Box>  
+                        <Box p={5} height={500}>
+                            <Paper>
+                                <Box p={1}>
+                                    <img src={services} alt="" className="img-services"/>
+                                </Box>
+                                <Box p={3}>
+                                    <Box>
+                                        <Typography variant="h3" align="center">Web Design's</Typography>
+                                        <Typography color="textSecondary" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</Typography>
+                                    </Box>
+                                </Box>
+                                <Button size="large" fullWidth>Contact us</Button>
+                            </Paper>
                         </Box>
                     </Grid>
                     <Grid item xs={8} sm={4}>
-                        <Box p={5} m={5} height={300}>
-                            <Box>
-                                <Typography variant="h3" align="center">Title</Typography>
-                                <Typography color="textSecondary" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</Typography>
-                            </Box>
-                            <Box display="flex" flexDirection="column" alignItems="center">
-                                <Button size="small" fullWidth>Learn More</Button>
-                            </Box>
+                        <Box px={5} height={500}>
+                            <Paper>
+                                <Box p={2}>
+                                    <img src={premio} alt="" className="img-services"/>
+                                </Box>
+                                <Box p={3}>
+                                    <Box>
+                                        <Typography variant="h3" align="center">Mobile App's</Typography>
+                                        <Typography color="textSecondary" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</Typography>
+                                    </Box>
+                                </Box>
+                                <Button size="large" fullWidth>Contact us</Button>
+                            </Paper>
                         </Box>
                     </Grid>
                     <Grid item xs={8} sm={4}>
-                        <Box p={5} m={5} height={300}>
-                            <Box>
-                                <Typography variant="h3" align="center">Title</Typography>
-                                <Typography color="textSecondary" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</Typography>
-                            </Box>
-                            <Box display="flex" flexDirection="column" alignItems="center">
-                                <Button size="small" fullWidth>Learn More</Button>
-                            </Box>
+                        <Box p={5} height={500}>
+                            <Paper>
+                                <Box p={1}>
+                                    <img src={services} alt="" className="img-services"/>
+                                </Box>
+                                <Box p={3}>
+                                    <Box>
+                                        <Typography variant="h3" align="center">API-Rest</Typography>
+                                        <Typography color="textSecondary" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</Typography>
+                                    </Box>
+                                </Box>
+                                <Button size="large" fullWidth>Contact us</Button>
+                            </Paper>
                         </Box>
                     </Grid>
                 </Grid>

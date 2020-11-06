@@ -16,11 +16,11 @@ const About = () => {
                 <Grid container spacing={24}>
                     <Grid item xs={24} sm={12}>
                         <Box p={5} m={5} display="flex" flexDirection="column" alignItems="center" justifyContent="center" height={200}>
-                            <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center">
+                            <Box>
                                 <Grid container>
                                     <Grid item xs={12} sm={6}>
                                         <Box>
-                                            <img src={lupa} className="img-about"/>
+                                            <img src={lupa} className="img-about" alt=""/>
                                         </Box>
                                     </Grid>
                                     <Grid item item xs={12} sm={6}>
@@ -34,7 +34,7 @@ const About = () => {
                     </Grid>
                     <Grid item xs={24} sm={12}>
                         <Box p={5} m={5} display="flex" flexDirection="column" alignItems="center" justifyContent="center" height={200}>
-                            <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center">
+                            <Box>
                                 <Grid container>
                                     <Grid item xs={12} sm={6}>
                                         <Box>
@@ -43,7 +43,9 @@ const About = () => {
                                         </Box>
                                     </Grid>
                                     <Grid item item xs={12} sm={6}>
-                                        <img src={idea} className="img-about"/>
+                                        <Box>
+                                            <img src={idea} className="img-about" alt=""/>
+                                        </Box>
                                     </Grid>
                                 </Grid>
                             </Box>
@@ -52,11 +54,11 @@ const About = () => {
                     </Grid>
                     <Grid item xs={24} sm={12}>
                         <Box p={5} m={5} display="flex" flexDirection="column" alignItems="center" justifyContent="center" height={200}>
-                            <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center">
+                            <Box>
                                 <Grid container>
                                     <Grid item xs={12} sm={6}>
                                         <Box>
-                                            <img src={testamento} className="img-about"/>
+                                            <img src={testamento} className="img-about" alt=""/>
                                         </Box>
                                     </Grid>
                                     <Grid item item xs={12} sm={6}>
@@ -70,7 +72,7 @@ const About = () => {
                     </Grid>
                     <Grid item xs={24} sm={12}>
                         <Box p={5} m={5} display="flex" flexDirection="column" alignItems="center" justifyContent="center" height={200}>
-                            <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center">
+                            <Box>
                                 <Grid container>
                                     <Grid item xs={12} sm={6}>
                                         <Box>
@@ -79,7 +81,9 @@ const About = () => {
                                         </Box>
                                     </Grid>
                                     <Grid item item xs={12} sm={6}>
-                                        <img src={mapa} className="img-about"/>
+                                        <Box>
+                                            <img src={mapa} className="img-about" alt=""/>
+                                        </Box>
                                     </Grid>
                                 </Grid>
                             </Box>
