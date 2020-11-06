@@ -4,8 +4,10 @@ import './styles.css';
 
 const Team = () => {
     return(
-        <Box>
-            <Typography variant="h1" align="center">Soy Team</Typography>
+        <Box className="team">
+            <Box p={5}>
+                <Typography variant="h1" align="center">Our Team</Typography>
+            </Box>
         </Box>
     )
 }
