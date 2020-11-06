@@ -1,5 +1,6 @@
 import React from "react";
 import { AppBar, Box, Button, Toolbar, Typography } from "@material-ui/core";
+import logo from '../../images/logo.png';
 import "./styles.css";
 
 const NavBar = () => {
@@ -7,10 +8,13 @@ const NavBar = () => {
     <Box>
       <AppBar position="fixed">
         <Toolbar className="navbar">
-            <Box ml={10} flexGrow={1}>
+            <Box ml={10}>
+              <img src={logo} id="img-logo"/>
+            </Box>
+            <Box flexGrow={1}>
               <Typography variant="h6" color="inherit">
-                  Logo
-              </Typography>
+                ONFIRE
+              </Typography> 
             </Box>
             <Box mr={10}>
               <Button color="inherit" size="large" id="button">Services</Button>

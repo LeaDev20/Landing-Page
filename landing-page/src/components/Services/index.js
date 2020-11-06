@@ -6,7 +6,7 @@ const Services = () => {
     return(
         <Box className="services">
             <Box p={5}>
-                <Typography variant="h1" align="center">Servicios</Typography>
+                <Typography variant="h1" align="center">Services</Typography>
             </Box>
             <Box className="">
                 <Grid container spacing={24}>
