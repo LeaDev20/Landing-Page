@@ -1,6 +1,6 @@
 import React from "react";
 import { AppBar, Box, Button, Toolbar, Typography } from "@material-ui/core";
-import logo from '../../images/logo.png';
+import logo from './images/logo.png';
 import "./styles.css";
 
 const NavBar = () => {

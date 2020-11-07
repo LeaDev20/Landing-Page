@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Button, Grid, Paper, Typography } from '@material-ui/core';
-import premio from '../../images/premio.png';
-import services from '../../images/services.png';
+import premio from './images/premio.png';
+import services from './images/services.png';
 import './styles.css';
 
 const Services = () => {

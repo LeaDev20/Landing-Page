@@ -1,5 +1,6 @@
 .home {
-    background-image: url("../../images/fondo-negro.jpg");
+    background-image: url("./images/fondo-negro.jpg");
     background-size: cover;
-    background-position: center;    
+    background-position: center;
+    color: white;    
 }

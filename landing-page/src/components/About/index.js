@@ -1,9 +1,9 @@
 import React from 'react';
 import { Box, Grid, Typography, Divider } from '@material-ui/core';
-import testamento from '../../images/testamento.png';
-import mapa from '../../images/mapa.png';
-import idea from '../../images/idea.png';
-import lupa from '../../images/lupa.png';
+import testamento from './images/testamento.png';
+import mapa from './images/mapa.png';
+import idea from './images/idea.png';
+import lupa from './images/lupa.png';
 import './styles.css';
 
 const About = () => {
@@ -24,13 +24,13 @@ const About = () => {
                                         </Box>
                                     </Grid>
                                     <Grid item item xs={12} sm={6}>
-                                        <Typography variant="h3">Title</Typography>
+                                        <Typography variant="h3">Statistics</Typography>
                                         <Typography color="textSecondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</Typography>
                                     </Grid>
                                 </Grid>
                             </Box>
                         </Box>
-                        <Divider variant="inset"/>
+                        <Divider/>
                     </Grid>
                     <Grid item xs={24} sm={12}>
                         <Box p={5} m={5} display="flex" flexDirection="column" alignItems="center" justifyContent="center" height={200}>
@@ -38,7 +38,7 @@ const About = () => {
                                 <Grid container>
                                     <Grid item xs={12} sm={6}>
                                         <Box>
-                                            <Typography variant="h3">Title</Typography>
+                                            <Typography variant="h3">Idea</Typography>
                                             <Typography color="textSecondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</Typography>
                                         </Box>
                                     </Grid>
@@ -62,7 +62,7 @@ const About = () => {
                                         </Box>
                                     </Grid>
                                     <Grid item item xs={12} sm={6}>
-                                        <Typography variant="h3">Title</Typography>
+                                        <Typography variant="h3">Commitment</Typography>
                                         <Typography color="textSecondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</Typography>
                                     </Grid>
                                 </Grid>
@@ -76,7 +76,7 @@ const About = () => {
                                 <Grid container>
                                     <Grid item xs={12} sm={6}>
                                         <Box>
-                                            <Typography variant="h3">Title</Typography>
+                                            <Typography variant="h3">Location</Typography>
                                             <Typography color="textSecondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</Typography>
                                         </Box>
                                     </Grid>
