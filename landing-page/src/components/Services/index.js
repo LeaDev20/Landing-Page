@@ -11,10 +11,10 @@ const Services = () => {
                 <Typography variant="h1" align="center">Services</Typography>
             </Box>
             <Box p={10}>
-                <Grid container spacing={24}>    
+                <Grid container>
                     <Grid item xs={8} sm={4}>
                         <Box p={5} height={500}>
-                            <Paper>
+                            <Paper elevation={10}>
                                 <Box p={1}>
                                     <img src={services} alt="" className="img-services"/>
                                 </Box>
@@ -30,7 +30,7 @@ const Services = () => {
                     </Grid>
                     <Grid item xs={8} sm={4}>
                         <Box px={5} height={500}>
-                            <Paper>
+                            <Paper elevation={20}>
                                 <Box p={2}>
                                     <img src={premio} alt="" className="img-services"/>
                                 </Box>
@@ -46,7 +46,7 @@ const Services = () => {
                     </Grid>
                     <Grid item xs={8} sm={4}>
                         <Box p={5} height={500}>
-                            <Paper>
+                            <Paper elevation={10}>
                                 <Box p={1}>
                                     <img src={services} alt="" className="img-services"/>
                                 </Box>
