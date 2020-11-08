@@ -6,7 +6,7 @@ import './styles.css';
 
 const Services = () => {
     return(
-        <Box className="services">
+        <Box id="services" className="services">
             <Box p={5}>
                 <Typography variant="h1" align="center">Services</Typography>
             </Box>

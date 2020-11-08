@@ -1,3 +1,4 @@
+import React from 'react';
 import NavBar from './components/Navbar';
 import Home from './components/Home';
 import Services from './components/Services'

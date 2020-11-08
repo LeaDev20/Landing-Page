@@ -4,16 +4,15 @@ import developer from './images/developer.jpg';
 import engineer from './images/engineer.jpg';
 import dataAnalytic from './images/data-analytic.jpg';
 import machineLearnign from './images/machine-learning.jpg';    
-import './styles.css';
 
 const Team = () => {
     return(
-        <Box className="team">
+        <Box id="team" className="team">
             <Box p={5}>
                 <Typography variant="h1" align="center">Our Team</Typography>
             </Box>
-            <Box py={5} px={5}>
-                <Grid container spacing={24}>    
+            <Box py={5} px={5} display="flex" flexDirection="row" alignItems="center" height={400}>
+                <Grid container>    
                     <Grid item xs={6} sm={3}>
                         <Box mx={1}>
                             <Paper elevation={10}>

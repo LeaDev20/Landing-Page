@@ -1,7 +1,6 @@
 import React from "react";
 import { AppBar, Box, Button, Toolbar, Typography } from "@material-ui/core";
 import logo from './images/logo.png';
-import "./styles.css";
 
 const NavBar = () => {
   return (
@@ -17,9 +16,10 @@ const NavBar = () => {
               </Typography> 
             </Box>
             <Box>
-              <Button color="inherit" size="large" id="button">Services</Button>
-              <Button color="inherit" size="large" id="button">About</Button>
-              <Button color="inherit" size="large" id="button">Team</Button>
+              <Button color="inherit" size="large" href="#home" id="button">Home</Button>
+              <Button color="inherit" size="large" href="#services" id="button">Services</Button>
+              <Button color="inherit" size="large" href="#about" id="button">About</Button>
+              <Button color="inherit" size="large" href="#team" id="button">Team</Button>
             </Box>
         </Toolbar>
       </AppBar>
